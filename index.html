@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+      <div class="calculator-top">
+          <div class="title"><h1>calc</h1></div>
+          <div class="theme">
+              <h5>THEME</h5>
+              <div class="switch">
+                  <div class="theme-numbers">
+                      <span>1</span>
+                      <span>2</span>
+                      <span>3</span>
+                  </div>
+               <div class="theme-toggle">
+                   <input type="checkbox" class="theme-switch-input">
+                   <label for="theme-switch" class="theme-switch-label">
+                       <span class="theme-switch-button"></span>
+                   </label>
+                </div>
+             </div>
+          </div>
+      </div>
+      <div class="calculator-bottom">
+        <div class="display">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        
+          <div class="numbers">
+              <button data-num class="btn">7</button>
+              <button data-num class="btn">8</button>
+              <button data-num class="btn">9</button>
+              <button data-delete class="del">DEL</button>
+              <button data-num class="btn">4</button>
+              <button data-num class="btn">5</button>
+              <button data-num class="btn">6</button>
+              <button data operator class="btn">+</button>
+              <button data-num class="btn">1</button>
+              <button data-num class="btn">2</button>
+              <button data-num class="btn">3</button>
+              <button data operator class="btn">-</button>
+              <button data operator class="btn">.</button>
+              <button data-num class="btn">0</button>
+              <button data operator class="btn">/</button>
+              <button data operator class="btn">x</button>
+              <button data-num class="reset">RESET</button>
+              <button data operator class="equal">=</button>
+          </div>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
